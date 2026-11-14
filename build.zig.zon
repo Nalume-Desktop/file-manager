@@ -1,0 +1,15 @@
+.{
+    .name = .file_manager,
+    .version = "0.1.0",
+    .fingerprint = 0xa1429c82c8322c27,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .dvui = .{ .path = "../dvui" },
+        .views = .{ .path = "../views" },
+        .file_operations = .{ .path = "../file-operations" },
+        .system_fonts = .{ .path = "../system-fonts" },
+        .system_icons = .{ .path = "../system-icons" },
+        .nalume_ui = .{ .path = "../nalume-ui" },
+    },
+    .paths = .{ "build.zig", "build.zig.zon", "src", "README.md", ".gitignore" },
+}
